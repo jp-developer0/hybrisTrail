@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved
+-->
+<action-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   id="com.hybris.cockpitng.action.clone"
+                   xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/action-definition.xsd">
+    <name>Clone</name>
+    <description>
+        Action providing default implementation of clone operation.
+    </description>
+    <author>hybris</author>
+    <version>1.0</version>
+
+    <sockets>
+        <output id="clonedObject" type="java.lang.Object" />
+    </sockets>
+
+
+    <iconUri>icons/icon_clone_default.png</iconUri>
+    <iconDisabledUri>icons/icon_clone_disabled.png</iconDisabledUri>
+    <iconHoverUri>icons/icon_clone_hover.png</iconHoverUri>
+
+    <inputType>java.lang.Object</inputType>
+    <outputType>java.lang.Object</outputType>
+    <actionClassName>com.hybris.cockpitng.actions.clone.CloneAction</actionClassName>
+</action-definition>

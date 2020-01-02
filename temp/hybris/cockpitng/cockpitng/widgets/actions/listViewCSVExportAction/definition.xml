@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved
+-->
+<action-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   id="com.hybris.cockpitng.listview.action.export.csv"
+                   xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/action-definition.xsd">
+    <name>Export List View To CSV Action</name>
+    <description>
+        Action providing implementation of List View to CSV export. It exports All of the visible columns of the List
+        View that have text representation.
+    </description>
+    <author>hybris</author>
+    <version>1.0</version>
+    <actionClassName>com.hybris.cockpitng.actions.export.csv.ListViewExportCSVAction</actionClassName>
+    <inputType>java.util.Map</inputType>
+    <iconUri>icons/icon_action_export_csv_default.png</iconUri>
+    <iconDisabledUri>icons/icon_action_export_csv_disabled.png</iconDisabledUri>
+    <iconHoverUri>icons/icon_action_export_csv_hover.png</iconHoverUri>
+    <settings>
+        <setting key="confirmation.threshold" default-value="500" type="java.lang.Integer"/>
+    </settings>
+</action-definition>

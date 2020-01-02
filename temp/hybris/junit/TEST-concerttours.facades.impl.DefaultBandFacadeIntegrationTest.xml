@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="jp-ThinkPad-E460" name="concerttours.facades.impl.DefaultBandFacadeIntegrationTest" tests="3" time="6.886" timestamp="2020-01-02T17:32:07">
+  <testcase classname="concerttours.facades.impl.DefaultBandFacadeIntegrationTest" name="testInvalidParameter" time="2.315" />
+  <testcase classname="concerttours.facades.impl.DefaultBandFacadeIntegrationTest" name="testNullParameter" time="2.29" />
+  <testcase classname="concerttours.facades.impl.DefaultBandFacadeIntegrationTest" name="testBandFacade" time="2.271" />
+  <system-out><![CDATA[mediaFormatName:bandList
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

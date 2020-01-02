@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="jp-ThinkPad-E460" name="concerttours.facades.impl.DefaultBandFacadeIntegrationWithPropertiesTest" tests="1" time="5.951" timestamp="2020-01-02T17:32:01">
+  <testcase classname="concerttours.facades.impl.DefaultBandFacadeIntegrationWithPropertiesTest" name="testProperties" time="5.948">
+    <failure message="Given file /impex/withlocalization/concerttours-yBandTour.impex can not be found in classpath" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Given file /impex/withlocalization/concerttours-yBandTour.impex can not be found in classpath
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner$3.addError(JUnitTestRunner.java:1409)
+	at de.hybris.platform.testframework.ChainingRunNotifierWrapper.fireTestFailure(ChainingRunNotifierWrapper.java:152)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner$TenantActivationNotAllowedRunBefores.evaluate(HybrisJUnit4ClassRunner.java:161)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner.superRun(HybrisJUnit4ClassRunner.java:113)
+	at de.hybris.platform.testframework.HybrisTestClassRunnerLogic.run(HybrisTestClassRunnerLogic.java:113)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner.run(HybrisJUnit4ClassRunner.java:65)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.run(JUnitTestRunner.java:600)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.launch(JUnitTestRunner.java:1325)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.main(JUnitTestRunner.java:1115)
+	at de.hybris.platform.servicelayer.ServicelayerTestLogic.importCsv(ServicelayerTestLogic.java:235)
+	at de.hybris.platform.servicelayer.ServicelayerTest.importCsv(ServicelayerTest.java:107)
+	at concerttours.facades.impl.DefaultBandFacadeIntegrationWithPropertiesTest.testProperties(DefaultBandFacadeIntegrationWithPropertiesTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

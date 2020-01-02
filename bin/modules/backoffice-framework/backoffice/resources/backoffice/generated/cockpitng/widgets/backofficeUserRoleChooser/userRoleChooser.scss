@@ -1,0 +1,14 @@
+@import '/home/jp/Documentos/sap/sap/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/scss/cockpitng-globals.scss';
+@import '/home/jp/Documentos/sap/sap/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/backoffice/scss/backoffice-variables.scss';
+
+/*================================
+    UserRoleChooser Popup (Systembar)
+================================*/
+// Relevant Changes applied to the User Role Chooser Popup
+
+
+.yw-roleChooser {
+	&-empty-list-state {
+		display: none;
+	}
+}

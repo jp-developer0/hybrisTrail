@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="jp-ThinkPad-E460" name="concerttours.jobs.SendNewsJobIntegrationTest" tests="2" time="64.698" timestamp="2020-01-02T17:30:57">
+  <testcase classname="concerttours.jobs.SendNewsJobIntegrationTest" name="testSendingNews" time="62.485">
+    <failure message="Job did not perform correctly expected:&lt;SUCCESS&gt; but was:&lt;FAILURE&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Job did not perform correctly expected:&lt;SUCCESS&gt; but was:&lt;FAILURE&gt;
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner$3.addError(JUnitTestRunner.java:1409)
+	at de.hybris.platform.testframework.ChainingRunNotifierWrapper.fireTestFailure(ChainingRunNotifierWrapper.java:152)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner$TenantActivationNotAllowedRunBefores.evaluate(HybrisJUnit4ClassRunner.java:161)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner.superRun(HybrisJUnit4ClassRunner.java:113)
+	at de.hybris.platform.testframework.HybrisTestClassRunnerLogic.run(HybrisTestClassRunnerLogic.java:113)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner.run(HybrisJUnit4ClassRunner.java:65)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.run(JUnitTestRunner.java:600)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.launch(JUnitTestRunner.java:1325)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.main(JUnitTestRunner.java:1115)
+	at concerttours.jobs.SendNewsJobIntegrationTest.testSendingNews(SendNewsJobIntegrationTest.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="concerttours.jobs.SendNewsJobIntegrationTest" name="testNoNewsItems" time="2.207" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

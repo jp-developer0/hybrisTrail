@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="jp-ThinkPad-E460" name="concerttours.events.BandAlbumSalesEventListenerIntegrationTest" tests="2" time="12.877" timestamp="2020-01-02T17:32:21">
+  <testcase classname="concerttours.events.BandAlbumSalesEventListenerIntegrationTest" name="testValidationInterceptor" time="6.243" />
+  <testcase classname="concerttours.events.BandAlbumSalesEventListenerIntegrationTest" name="testEventSendingAsync" time="6.627" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

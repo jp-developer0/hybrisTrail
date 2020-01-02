@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="jp-ThinkPad-E460" name="concerttours.constraints.NotLoremIpsumConstraintTest" tests="1" time="1.292" timestamp="2020-01-02T17:32:34">
+  <testcase classname="concerttours.constraints.NotLoremIpsumConstraintTest" name="testLoremIpsumConstraint" time="1.289" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

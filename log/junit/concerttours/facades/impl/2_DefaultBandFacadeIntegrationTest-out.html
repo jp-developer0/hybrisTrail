@@ -1,0 +1,194 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Standard Output from DefaultBandFacadeIntegrationTest</title>
+    </head>
+    <body>
+        <pre>INFO  [main] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant &lt;&lt;junit&gt;&gt;[2137643032]
+INFO  [main] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant &lt;&lt;master&gt;&gt;
+INFO  [main] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant &lt;&lt;master&gt;&gt;.
+&gt;&gt;&gt; No SAP licenses found in the system. Trying fallback to hybris license.
+INFO  [main] [Registry] Using additional Trust Store set in the hybris properties.
+INFO  [main] [JerseyClientDefaultSslContextProvider] Jersey client will use jvm default SSLContext
+INFO  [main] [Registry] Additional Trust Store has been merged with the default SSLContext.
+INFO  [main] [DefaultClusterNodeManagementService] Automatic cluster ID discovery disabled. Configured ID: 0
+INFO  [main] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant &lt;&lt;t1&gt;&gt;[-1376605032]
+INFO  [main] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant &lt;&lt;t1&gt;&gt;[-1376605032].
+INFO  [main] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant &lt;&lt;t2&gt;&gt;[311276479]
+INFO  [main] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant &lt;&lt;t2&gt;&gt;[311276479].
+INFO  [main] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant &lt;&lt;foo&gt;&gt;[-1073506382]
+INFO  [main] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant &lt;&lt;foo&gt;&gt;[-1073506382].
+INFO  [main] (junit) [AbstractTenant] Created master data source DataSourceImpl&lt;&lt;junit/master&gt;&gt;
+INFO  [main] (junit) [AbstractTenant] Created alternative data source "alt1"
+INFO  [main] (junit) [AbstractTenant] Created alternative data source "alt2"
+INFO  [main] (junit) [AbstractTenant] Created alternative data source "a"
+INFO  [main] (junit) [AbstractTenant] Created alternative data source "b"
+INFO  [main] (junit) [AbstractTenant] Created alternative data source "c"
+INFO  [main] (junit) [DefaultBroadcastService] Started message broadcast service:
+clustering (enabled:false)
+sending synchronously - no queue
+methods [&lt;loopback&gt;::de.hybris.platform.cluster.LoopBackBroadcastMethod@4b65d9f4]
+INFO  [main] (junit) [hybrisserver] 
+INFO  [main] (junit) [hybrisserver] *****************************************************************
+INFO  [main] (junit) [hybrisserver] 
+INFO  [main] (junit) [hybrisserver] Starting up hybris server
+INFO  [main] (junit) [hybrisserver] 
+INFO  [main] (junit) [hybrisserver] Configuration:
+INFO  [main] (junit) [hybrisserver] 
+INFO  [main] (junit) [hybrisserver] Cluster:     disabled
+INFO  [main] (junit) [hybrisserver] Tenant:      junit
+INFO  [main] (junit) [hybrisserver] Mode:        development
+INFO  [main] (junit) [hybrisserver] OS:          Linux 4.15.0-72-generic, amd64
+INFO  [main] (junit) [hybrisserver] Database:    Pool: hybris - hsqldb, table prefix: junit_
+INFO  [main] (junit) [hybrisserver]              SA - jdbc:hsqldb:file:/home/jp/Documentos/sap/sap/hybris/data/hsqldb/mydb;shutdown=true;hsqldb.tx=MVCC;hsqldb.log_size=256
+INFO  [main] (junit) [hybrisserver] Platform:    1905.6
+INFO  [main] (junit) [hybrisserver] Java:        Private Build
+INFO  [main] (junit) [hybrisserver]              OpenJDK Runtime Environment, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+INFO  [main] (junit) [hybrisserver]              /usr/lib/jvm/java-11-openjdk-amd64
+INFO  [main] (junit) [hybrisserver] VM Locale:   language=es,country=AR,region=null
+INFO  [main] (junit) [hybrisserver] Cache:       RegionCache is not yet initialized. [de.hybris.platform.cache.impl.RegionCacheAdapter]
+INFO  [main] (junit) [hybrisserver] Server type: tomcat
+INFO  [main] (junit) [hybrisserver] 
+INFO  [main] (junit) [hybrisserver] *****************************************************************
+INFO  [main] (junit) [hybrisserver] 
+INFO  [main] (junit) [hybrisserver] ---------------------------------------------------------------
+INFO  [main] (junit) [hybrisserver] --- Extensions in dependency order ( options: 
+INFO  [main] (junit) [hybrisserver] ---  @deprecated: is deprecated, p: platform extension,*: auto-required 
+INFO  [main] (junit) [hybrisserver] ---  ?: lazy-loaded, i: got items.xml, b: got beans.xml, c: got core module 
+INFO  [main] (junit) [hybrisserver] ---  w: got web module ) 
+INFO  [main] (junit) [hybrisserver] ---------------------------------------------------------------
+INFO  [main] (junit) [hybrisserver] core 1905.6 [p*cib]
+INFO  [main] (junit) [hybrisserver] scripting 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] maintenanceweb 1905.6 [p*w]
+INFO  [main] (junit) [hybrisserver] testweb 1905.6 [p*w]
+INFO  [main] (junit) [hybrisserver] deliveryzone 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] paymentstandard 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] commons 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] processing-&gt;(scripting,commons) 1905.6 [p*cibw]
+INFO  [main] (junit) [hybrisserver] mediaweb 1905.6 [p*cw]
+INFO  [main] (junit) [hybrisserver] impex-&gt;processing 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] validation-&gt;impex 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] catalog-&gt;(validation,commons) 1905.6 [p*cib]
+INFO  [main] (junit) [hybrisserver] europe1-&gt;(impex,catalog) 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] platformservices-&gt;(paymentstandard,impex,deliveryzone,europe1,processing) 1905.6 [p*cb]
+INFO  [main] (junit) [hybrisserver] hac-&gt;(impex,catalog,processing,platformservices) 1905.6 [p*cw]
+INFO  [main] (junit) [hybrisserver] oauth2-&gt;platformservices 1905.6 [p*cibw]
+INFO  [main] (junit) [hybrisserver] workflow-&gt;(catalog,platformservices,processing,commons) 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] advancedsavedquery-&gt;(impex,catalog,processing) 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] comments-&gt;(workflow,impex,catalog,processing) 1905.6 [p*ci]
+INFO  [main] (junit) [hybrisserver] concerttours 1905.6 [cibw] path:/home/jp/Documentos/sap/sap/hybris/bin/custom/concerttours
+INFO  [main] (junit) [hybrisserver] ---------------------------------------------------------------
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;global&gt;&gt; spring config from extension (core) located in (global-core-spring.xml,core-cache.xml,global-servicelayer-spring.xml,global-core-jmx-spring.xml,global-statistics-spring.xml) took: (370.4 ms)
+INFO  [main] (junit) [HybrisContextFactory] - Refreshing SpringContext (Global context) took: (381.7 ms)
+INFO  [main] (junit) [HybrisContextFactory] Initializing &lt;&lt;global&gt;&gt; Spring ApplicationContext took: (803.6 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (core) located in (core-spring.xml,core-media-spring.xml,persistence-spring.xml,core-profiling-spring.xml,core-jmx-spring.xml,core-filter-spring.xml,servicelayer-spring.xml,user-spring.xml,security-spring.xml,media-spring.xml,i18n-spring.xml,interceptor-spring.xml,event-spring.xml,test/test-core-spring.xml,test/test-impex-spring.xml) took: (312.7 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (scripting) located in (scripting-spring.xml) took: (14.81 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (commons) located in (commons-spring.xml) took: (10.99 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (processing) located in (processing-spring.xml,cronjob-spring.xml,task-spring.xml,processengine-spring.xml,processing-jmx-spring.xml,processing-distributed-spring.xml,test/test-processing-spring.xml) took: (84.13 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (impex) located in (impex-spring.xml) took: (10.98 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (validation) located in (validation-spring.xml) took: (22.15 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (europe1) located in (europe1-spring.xml) took: (10.60 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (platformservices) located in (catalog-spring.xml,order-spring.xml,product-spring.xml,category-spring.xml,classification-spring.xml,jobs-spring.xml,converters-spring.xml,audit-spring.xml) took: (108.4 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (hac) located in (hac-spring.xml) took: (11.55 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (oauth2) located in (oauth2-spring.xml) took: (24.53 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (workflow) located in (workflow-spring.xml) took: (11.79 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (comments) located in (comments-spring.xml) took: (8.744 ms)
+INFO  [main] (junit) [HybrisContextFactory] Loading &lt;&lt;application&gt;&gt; spring config &lt;junit&gt; from extension (concerttours) located in (concerttours-spring.xml) took: (73.43 ms)
+INFO  [main] (junit) [LazyInitOverrideBeanFactoryPostProcessor] Setting lazy-init='false' for configuration beans
+INFO  [main] (junit) [EHCacheRegion] EHCacheRegion entityCacheRegion, eviction policy FIFO, size 100000
+INFO  [main] (junit) [EHCacheRegion] EHCacheRegion queryCacheRegion, eviction policy FIFO, size 20000
+INFO  [main] (junit) [EHCacheRegion] EHCacheRegion sessionCacheRegion, eviction policy LRU, size 50000
+INFO  [main] (junit) [DefaultCacheController] Regioncache initialized with region count 6
+INFO  [main] (junit) [DefaultCacheController] Cache region: Name: typesystemCacheRegion, size: 0, types: [81, 82, 83, 84, 87], statistics: true, class: class de.hybris.platform.regioncache.region.impl.UnlimitedCacheRegion
+INFO  [main] (junit) [DefaultCacheController] Cache region: Name: entityCacheRegion, size: 100000, types: [__ALL_TYPES__, __NO_QUERY__], exclusive computation: false, statistics: true, class: class de.hybris.platform.regioncache.region.impl.EHCacheRegion
+INFO  [main] (junit) [DefaultCacheController] Cache region: Name: queryCacheRegion, size: 20000, types: [__QUERY_CACHE__], exclusive computation: false, statistics: true, class: class de.hybris.platform.regioncache.region.impl.EHCacheRegion
+INFO  [main] (junit) [DefaultCacheController] Cache region: Name: mediaCacheRegion, size: 0, types: [__MEDIA__cache], statistics: true, class: class de.hybris.platform.media.storage.impl.MediaCacheRegion
+INFO  [main] (junit) [DefaultCacheController] Cache region: Name: scriptsCacheRegion, size: 0, types: [__SCRIPT__], statistics: true, class: class de.hybris.platform.scripting.engine.internal.cache.impl.ScriptsCacheRegion
+INFO  [main] (junit) [DefaultCacheController] Cache region: Name: sessionCacheRegion, size: 50000, types: [__SESSION__], exclusive computation: false, statistics: true, class: class de.hybris.platform.regioncache.region.impl.EHCacheRegion
+INFO  [main] (junit) [DefaultCacheController] Registered Listener de.hybris.platform.media.storage.impl.DefaultLocalMediaFileCacheService$MediaCacheLifecycleCallback@77587422 on cache controller. Currently registered 1
+INFO  [main] (junit) [HybrisSpringSessionFilter] Hybris Spring Session filter disabled
+INFO  [main] (junit) [Reflections] Reflections took 57 ms to scan 1 urls, producing 9 keys and 16 values 
+INFO  [main] (junit) [Reflections] Reflections took 1 ms to scan 1 urls, producing 2 keys and 5 values 
+INFO  [main] (junit) [ListMergeDirectiveBeanPostProcessor] Post Processing ListMergeDirective [priceProcessorsMergeDirective] on Bean [defaultPriceProcessors]
+INFO  [main] (junit) [ListMergeDirectiveBeanPostProcessor] Post Processing ListMergeDirective [discountProcessorsMergeDirective] on Bean [defaultDiscountProcessors]
+INFO  [main] (junit) [ListMergeDirectiveBeanPostProcessor] Post Processing ListMergeDirective [taxProcessorsMergeDirective] on Bean [defaultTaxProcessors]
+INFO  [main] (junit) [PricingCustomizationDetector] PDT smart calculation mode is enabled (pdt.calculation.mode=smart). This setting is not recommended for production environment.
+INFO  [main] (junit) [StatisticsService] adding chart memoryChart
+INFO  [main] (junit) [StatisticsService] adding chart threadsChart
+INFO  [main] (junit) [StatisticsService] adding chart osChart
+INFO  [main] (junit) [StatisticsService] adding chart sessionsChart
+INFO  [main] (junit) [StatisticsService] adding chart taskQueueSizeChart_junit
+INFO  [main] (junit) [StatisticsService] adding chart taskQueuePoolingSizeChart_junit
+INFO  [main] (junit) [StatisticsService] adding chart dbConnectionsInUseChart_junit
+INFO  [main] (junit) [HybrisContextFactory] - Refreshing SpringContext (hybris Application context - junit) took: (7.318 s)
+INFO  [main] (junit) [HybrisContextFactory] Initializing application Spring ApplicationContext for tenant junit  took: (8.032 s)
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Scheduling 10 tenant startup listeners to be notified for tenant &lt;&lt;junit&gt;&gt;[2137643032]
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Starting notifing listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Executing startup listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [AfterSaveEventPublisher-junit] (junit) [BlockingTenantStartupNotifier] Other thread is already notifying listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [AfterSaveEventPublisher-junit] (junit) [BlockingTenantStartupNotifier] Waiting for other thread to finish notifying listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.core.JMXBeanLoader@49bcd90d for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.core.JMXBeanLoader@49bcd90d has finished successfully in 79.57 ms.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.cronjob.jalo.CronJobManager$CronJobTenantListener@7d525b45 for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [DefaultCacheController] Registered Listener RegionCacheAdapter(1594115257) - &lt;&lt;junit&gt;&gt; on cache controller. Currently registered 2
+INFO  [main] (junit) [DefaultTaskService] Task engine starting up (min:10 max:10 idle:20s interval:2s)
+INFO  [Task-junit-poll] (junit) [BlockingTenantStartupNotifier] Other thread is already notifying listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [Task-junit-poll] (junit) [BlockingTenantStartupNotifier] Waiting for other thread to finish notifying listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.cronjob.jalo.CronJobManager$CronJobTenantListener@7d525b45 has finished successfully in 727.2 ms.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.cluster.DefaultBroadcastService$1$1@4d5196fd for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.cluster.DefaultBroadcastService$1$1@4d5196fd has finished successfully in 5.537 ms.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.spring.HybrisRequestScope$1@738ce295 for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.spring.HybrisRequestScope$1@738ce295 has finished successfully in 24.14 μs.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.servicelayer.internal.model.impl.ModelContextProxy$2@2ae62f7 for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.servicelayer.internal.model.impl.ModelContextProxy$2@2ae62f7 has finished successfully in 43.99 μs.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.jalo.user.UserManager$1@26a5775f for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.jalo.user.UserManager$1@26a5775f has finished successfully in 71.24 μs.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.directpersistence.selfhealing.impl.DefaultSelfHealingService$2@4bcb45e4 for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.directpersistence.selfhealing.impl.DefaultSelfHealingService$2@4bcb45e4 has finished successfully in 758.7 μs.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.servicelayer.web.session.persister.AsyncSessionPersister$1@2e8ff687 for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [AsyncSessionPersister] No need to start async session persister since asynchronous session persistence is not configured.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.servicelayer.web.session.persister.AsyncSessionPersister$1@2e8ff687 has finished successfully in 871.5 μs.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.util.config.RuntimeConfigUpdateListener@3268f664 for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [RuntimeConfigRefreshRunner (junit)] (junit) [BlockingTenantStartupNotifier] Other thread is already notifying listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [RuntimeConfigRefreshRunner (junit)] (junit) [BlockingTenantStartupNotifier] Waiting for other thread to finish notifying listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.util.config.RuntimeConfigUpdateListener@3268f664 has finished successfully in 6.841 ms.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Notifying de.hybris.platform.order.strategies.calculation.impl.internal.PricingCustomizationDetector$PricingCustomizationDetectorListener@2554bfa for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [main] (junit) [BlockingTenantStartupNotifier] de.hybris.platform.order.strategies.calculation.impl.internal.PricingCustomizationDetector$PricingCustomizationDetectorListener@2554bfa has finished successfully in 598.0 μs.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] All listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032] have been notified in 827.8 ms.
+INFO  [main] (junit) [BlockingTenantStartupNotifier] Finished notifing listeners for tenant &lt;&lt;junit&gt;&gt;[2137643032].
+INFO  [Task-junit-poll] (junit) [BlockingTenantStartupNotifier] Finished waiting for tenant &lt;&lt;junit&gt;&gt;[2137643032] in 38.24 ms.
+INFO  [AfterSaveEventPublisher-junit] (junit) [BlockingTenantStartupNotifier] Finished waiting for tenant &lt;&lt;junit&gt;&gt;[2137643032] in 829.2 ms.
+INFO  [Task-junit-poll] (junit) [DefaultTaskService] Polling thread started.
+INFO  [RuntimeConfigRefreshRunner (junit)] (junit) [BlockingTenantStartupNotifier] Finished waiting for tenant &lt;&lt;junit&gt;&gt;[2137643032] in 3.953 ms.
+INFO  [Task-junit-poll] (junit) [DefaultModelConverterRegistry] loading model converters: 
+INFO  [Task-junit-poll] (junit) [DefaultModelConverterRegistry] 	pre-fetch mode:default
+INFO  [main] (junit) [LogRunListener] Starting test class concerttours.facades.impl.DefaultBandFacadeIntegrationTest
+INFO  [main] (junit) [LogRunListener] Starting test method testInvalidParameter(concerttours.facades.impl.DefaultBandFacadeIntegrationTest)
+INFO  [main] (junit) [LogRunListener] Finished test method testInvalidParameter(concerttours.facades.impl.DefaultBandFacadeIntegrationTest) in 2 seconds
+INFO  [main] (junit) [HsqldbCheckpointRunListener] Calling CHECKPOINT for HSQLDB took 87 ms
+INFO  [main] (junit) [OpenDBConnectionRunListener] Currently still open DB connection: 0
+INFO  [main] (junit) [SimpleLog4jPerformanceMeasurement] Test method concerttours.facades.impl.DefaultBandFacadeIntegrationTest.testInvalidParameter succeeded. Time taken: 2.467 s
+INFO  [main] (junit) [LogRunListener] Starting test method testNullParameter(concerttours.facades.impl.DefaultBandFacadeIntegrationTest)
+INFO  [main] (junit) [LogRunListener] Finished test method testNullParameter(concerttours.facades.impl.DefaultBandFacadeIntegrationTest) in 2 seconds
+INFO  [main] (junit) [HsqldbCheckpointRunListener] Calling CHECKPOINT for HSQLDB took 53 ms
+INFO  [main] (junit) [OpenDBConnectionRunListener] Currently still open DB connection: 0
+INFO  [main] (junit) [SimpleLog4jPerformanceMeasurement] Test method concerttours.facades.impl.DefaultBandFacadeIntegrationTest.testNullParameter succeeded. Time taken: 2.232 s
+INFO  [main] (junit) [LogRunListener] Starting test method testBandFacade(concerttours.facades.impl.DefaultBandFacadeIntegrationTest)
+INFO  [main] (junit) [Version] HV000001: Hibernate Validator 6.0.10.Final
+INFO  [main] (junit) [ConfigurationImpl] HV000002: Ignoring XML configuration.
+INFO  [main] (junit) [LogRunListener] Finished test method testBandFacade(concerttours.facades.impl.DefaultBandFacadeIntegrationTest) in 2 seconds
+INFO  [main] (junit) [HsqldbCheckpointRunListener] Calling CHECKPOINT for HSQLDB took 42 ms
+INFO  [main] (junit) [OpenDBConnectionRunListener] Currently still open DB connection: 0
+INFO  [main] (junit) [SimpleLog4jPerformanceMeasurement] Test method concerttours.facades.impl.DefaultBandFacadeIntegrationTest.testBandFacade succeeded. Time taken: 2.877 s
+INFO  [main] (junit) [LogRunListener] Finished (successful) test class concerttours.facades.impl.DefaultBandFacadeIntegrationTest
+INFO  [main] (junit) [LogRunListener]   Total run time: 0d 00h:00m:07s:651ms
+INFO  [main] (junit) [LogRunListener]   Total tests count: 3
+INFO  [main] (junit) [LogRunListener]   Failed tests count: 0
+INFO  [main] (junit) [LogRunListener]   Ignored tests count: 0
+INFO  [main] (junit) [ClassLoaderOverviewRunListener] Loaded class count: 14430 diff: 1549
+INFO  [main] (junit) [ClassLoaderOverviewRunListener] Total loaded class count: 14430 diff: 1549
+INFO  [main] (junit) [ClassLoaderOverviewRunListener] Unloaded class count: 0 diff: 0
+</pre>
+    </body>
+</html>

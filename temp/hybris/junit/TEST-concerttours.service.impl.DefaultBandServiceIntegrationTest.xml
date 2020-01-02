@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="jp-ThinkPad-E460" name="concerttours.service.impl.DefaultBandServiceIntegrationTest" tests="3" time="8.873" timestamp="2020-01-02T17:32:36">
+  <testcase classname="concerttours.service.impl.DefaultBandServiceIntegrationTest" name="testBandService" time="2.212" />
+  <testcase classname="concerttours.service.impl.DefaultBandServiceIntegrationTest" name="testFailBehavior" time="2.209" />
+  <testcase classname="concerttours.service.impl.DefaultBandServiceIntegrationTest" name="testBandServiceTours" time="4.448">
+    <failure message="Import has 7+unresolved lines, first lines are:&#xa;&#xa;INSERT_UPDATE Band;code[unique=true];name;albumSales;image(qualifier)&#xa;,,,,Exception : line 39: cannot create Band with values ItemAttributeMap[ registry:  null, type: &lt;null&gt;, data: {code=A001, image=8796126019634, name=yRock, albumsales=1000000} ] due to [de.hybris.platform.validation.interceptors.ValidationInterceptor@6ab2bfa]: unexpected validator error: Can&apos;t find resource for bundle de.hybris.platform.servicelayer.i18n.impl.CompositeResourceBundle, key concerttours.constraints.NotLoremIpsum.message, Exception : line 3: cannot create Band with values ItemAttributeMap[ registry:  null, type: &lt;null&gt;, data: {code=A001, image=8796126019634, name=yRock, albumsales=1000000} ] due to [de.hybris.platform.validation.interceptors.ValidationInterceptor@6ab2bfa]: unexpected validator error: Can&apos;t find resource for bundle de.hybris.platform.servicelayer.i18n.impl.CompositeResourceBundle, key concerttours.constraints.NotLoremIpsum.message;A001;yRock;1000000;yRockImage&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Import has 7+unresolved lines, first lines are:
+
+INSERT_UPDATE Band;code[unique=true];name;albumSales;image(qualifier)
+,,,,Exception : line 39: cannot create Band with values ItemAttributeMap[ registry:  null, type: &lt;null&gt;, data: {code=A001, image=8796126019634, name=yRock, albumsales=1000000} ] due to [de.hybris.platform.validation.interceptors.ValidationInterceptor@6ab2bfa]: unexpected validator error: Can&apos;t find resource for bundle de.hybris.platform.servicelayer.i18n.impl.CompositeResourceBundle, key concerttours.constraints.NotLoremIpsum.message, Exception : line 3: cannot create Band with values ItemAttributeMap[ registry:  null, type: &lt;null&gt;, data: {code=A001, image=8796126019634, name=yRock, albumsales=1000000} ] due to [de.hybris.platform.validation.interceptors.ValidationInterceptor@6ab2bfa]: unexpected validator error: Can&apos;t find resource for bundle de.hybris.platform.servicelayer.i18n.impl.CompositeResourceBundle, key concerttours.constraints.NotLoremIpsum.message;A001;yRock;1000000;yRockImage
+
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner$3.addError(JUnitTestRunner.java:1409)
+	at de.hybris.platform.testframework.ChainingRunNotifierWrapper.fireTestFailure(ChainingRunNotifierWrapper.java:152)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner$TenantActivationNotAllowedRunBefores.evaluate(HybrisJUnit4ClassRunner.java:161)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner.superRun(HybrisJUnit4ClassRunner.java:113)
+	at de.hybris.platform.testframework.HybrisTestClassRunnerLogic.run(HybrisTestClassRunnerLogic.java:113)
+	at de.hybris.platform.testframework.HybrisJUnit4ClassRunner.run(HybrisJUnit4ClassRunner.java:65)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.run(JUnitTestRunner.java:600)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.launch(JUnitTestRunner.java:1325)
+	at de.hybris.ant.taskdefs.yunit.JUnitTestRunner.main(JUnitTestRunner.java:1115)
+
+INSERT_UPDATE Band;code[unique=true];name;albumSales;image(qualifier)
+,,,,Exception : line 39: cannot create Band with values ItemAttributeMap[ registry:  null, type: &lt;null&gt;, data: {code=A001, image=8796126019634, name=yRock, albumsales=1000000} ] due to [de.hybris.platform.validation.interceptors.ValidationInterceptor@6ab2bfa]: unexpected validator error: Can&apos;t find resource for bundle de.hybris.platform.servicelayer.i18n.impl.CompositeResourceBundle, key concerttours.constraints.NotLoremIpsum.message, Exception : line 3: cannot create Band with values ItemAttributeMap[ registry:  null, type: &lt;null&gt;, data: {code=A001, image=8796126019634, name=yRock, albumsales=1000000} ] due to [de.hybris.platform.validation.interceptors.ValidationInterceptor@6ab2bfa]: unexpected validator error: Can&apos;t find resource for bundle de.hybris.platform.servicelayer.i18n.impl.CompositeResourceBundle, key concerttours.constraints.NotLoremIpsum.message;A001;yRock;1000000;yRockImage
+
+	at de.hybris.platform.servicelayer.ServicelayerTestLogic.importStream(ServicelayerTestLogic.java:289)
+	at de.hybris.platform.servicelayer.ServicelayerTestLogic.importStream(ServicelayerTestLogic.java:243)
+	at de.hybris.platform.servicelayer.ServicelayerTestLogic.importCsv(ServicelayerTestLogic.java:237)
+	at de.hybris.platform.servicelayer.ServicelayerTest.importCsv(ServicelayerTest.java:107)
+	at concerttours.service.impl.DefaultBandServiceIntegrationTest.testBandServiceTours(DefaultBandServiceIntegrationTest.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
